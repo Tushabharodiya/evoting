@@ -1,0 +1,147 @@
+:root {
+  --primary: #1a257e;
+  --p-color: #605d5d;
+  --h-color: #1450a3;
+  --black: #000;
+  --white: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+input:focus {
+  outline: none;
+}
+/* ===================atoms============= */
+.button{
+  padding: 0px 20px;
+  background-color: var(--primary);
+  color: var(--white);
+  text-transform: capitalize;
+  border: transparent;
+  line-height: 38px;
+  border-radius: 15px;
+  transition: all 0.5s;
+  text-align: center;
+}
+.button:hover{
+  background-color: var(--black);
+}
+/* =================navbar=============== */
+.navbar {
+  background-color: var(--primary);
+}
+
+.navbar .head-logo img {
+  width: 70px;
+}
+
+.navbar .head-logo h4 {
+  font-size: 18px;
+  color: var(--white);
+}
+
+.navbar .user button {
+  color: var(--primary);
+  background-color: var(--white);
+  border: transparent;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+/* ==============================side_bar===================== */
+.side-list {
+  padding: 30px;
+  background-color: var(--white);
+  height: 100vh;
+  box-shadow: 1px 4px 20px rgb(230, 229, 229);
+  border-radius: 20px;
+}
+.side_bar .side-list h5 {
+  display: block;
+  color: var(--black);
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 10px;
+}
+.side_bar .side-list h5 i{
+  padding-right: 10px;
+}
+.adminbar{
+  margin-top: 40px;
+}
+/* ================================dashborad====================== */
+.cardd{
+  padding: 30px;
+  box-shadow: 0px 3px 10px rgb(212, 211, 211);
+  border-radius: 20px;
+  text-align: center;
+}
+.cardd h2{
+  margin-bottom: 20px;  
+}
+.cardd span{
+  display: block;
+  margin-bottom: 10px;
+}
+.main-table table th{
+  background-color: #979696;
+}
+.main-table table th,td,tr{
+  border: 1px solid #535252;
+}
+.main-table table img{
+  width: 80px;
+}
+.model{
+  padding:20px 50px;
+  background-color: var(--white);
+  box-shadow: 0px 3px 10px gray;
+  display: inline-block;
+  /* border-radius: 10px; */
+  position: fixed;
+  top: 30px;
+  left: 40%;
+}
+.model label{
+  display: block;
+  margin-bottom: 20px;
+  color: var(--black);
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.model .button{
+  width: 100%;
+  margin: 20px 0px;
+  line-height: 35px;
+}
